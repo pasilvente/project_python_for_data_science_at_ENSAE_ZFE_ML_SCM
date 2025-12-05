@@ -1,5 +1,15 @@
-__pycache__/
-*.ipynb_checkpoints/
+# environnements
+.venv/
+env/
+venv/
+
+# données
 data/
-.env
-.DS_Store
+
+# artefacts python
+__pycache__/
+*.pyc
+*.pyo
+
+# notebooks
+*.ipynb_checkpoints/
