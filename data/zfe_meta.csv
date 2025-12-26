@@ -1,0 +1,20 @@
+publisher_zfe_id,publisher_siren,publisher_nom,first_date_debut,last_date_debut,first_date_fin,n_aires,has_vp_restriction,siren,code,epci_principal,autres_siren,forme_juridique
+ANGERS,244900015,CU Angers Loire Métropole,2025-01-01,2025-01-01,2026-12-31,1,True,244900015.0,ANGERS,Angers Loire Métropole,,Métropole
+ANNECY,200066793,CA du Grand Annecy,2025-01-01,2030-01-01,2027-12-31,4,True,200066793.0,ANNECY,Grand Annecy,,Communauté d'agglomération
+ANNEMASSE,200011773,CA Annemasse-Les Voirons-Agglomération,2025-01-01,2025-01-01,,1,True,200011773.0,ANNEMASSE,Annemasse agglo,,Communauté d'agglomération
+BORDEAUX,243300316,Bordeaux Métropole,2025-01-01,2025-01-01,,1,True,243300316.0,BORDEAUX,Bordeaux Métropole,,Métropole
+CLERMONT-FERRAND,246300701,Clermont Auvergne métropole,2023-07-01,2023-07-01,,1,False,246300701.0,CLERMONT-FERRAND,Clermont Auvergne métropole,,Métropole
+DIJON,242100410,Dijon Métropole,2025-01-01,2025-01-01,2025-12-31,1,False,242100410.0,DIJON,Dijon Métropole,,Métropole
+GRENOBLE,253800825,Syndicat Mixte des Mobilités de l'Aire Grenobloise,2019-05-02,2019-05-02,,1,False,253800825.0,GRENOBLE,Grenoble Alpes métropole,,Métropole
+LYON,256900994,SM des transports pour le Rhône et l'agglomération lyonnaise (SYTRAL),2025-01-01,2025-01-01,,1,True,,,,,
+MARSEILLE-AIX EN PROVENCE,200054807,Métropole d'Aix-Marseille-Provence,2022-09-01,2023-09-01,2032-08-31,2,True,200054807.0,MARSEILLE-AIX EN PROVENCE,Métropole Aix-Marseille-Provence,,Métropole
+MONTPELLIER,243400017,Montpellier Méditerranée Métropole,2022-07-01,2022-07-01,,1,True,243400017.0,MONTPELLIER,Montpellier Méditerranée Métropole,,Métropole
+NANCY,245400676,Métropole du Grand Nancy,2025-01-01,2025-01-01,2034-12-31,1,True,245400676.0,NANCY,Métropole du Grand Nancy,,Métropole
+NICE,200030195,Métropole Nice Côte d'Azur,2022-01-31,2024-01-31,2022-12-31,3,True,200030195.0,NICE,Métropole Nice Côte d'Azur,,Métropole
+PARIS,217500016,Ville de Paris,2021-06-01,2021-06-01,,1,True,217500016.0,PARIS,Ville de Paris,,Autre collectivité territoriale
+REIMS,200067213,CU du Grand Reims,2022-01-01,2023-01-01,2022-12-31,2,True,200067213.0,REIMS,Grand Reims,,Métropole
+RENNES,243500139,Rennes Métropole,2024-12-30,2024-12-30,2026-12-31,1,True,243500139.0,RENNES,Rennes métropole,,Métropole
+ROUEN,200023414,Métropole Rouen Normandie,2022-09-01,2022-09-01,2032-09-01,1,True,200023414.0,ROUEN,Métropole Rouen Normandie,,Métropole
+SAINT-ETIENNE,244200770,Saint-Étienne Métropole,2022-01-31,2027-01-01,2024-12-31,3,False,244200770.0,SAINT-ETIENNE,Saint-Étienne Métropole,,Métropole
+STRASBOURG,246700488,Eurométropole de Strasbourg,2023-01-01,2028-01-01,,7,True,246700488.0,STRASBOURG,Eurométropole de Strasbourg,,Métropole
+TOULOUSE,243100518,Toulouse Métropole,2022-03-01,2024-01-01,,4,True,243100518.0,TOULOUSE,Toulouse Métropole,253100986.0,Métropole

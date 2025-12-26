@@ -1,0 +1,3 @@
+station_id,station_name,station_env,station_influence,lat,lon,in_zfe_paris
+FR04031,Av Champs Elysees,Urbaine,Trafic,48.868772,2.311231,True
+FR04055,PARIS 1er Les Halles,Urbaine,Fond,48.86212,2.344616,True
