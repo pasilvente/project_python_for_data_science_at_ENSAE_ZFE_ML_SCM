@@ -1,0 +1,14 @@
+station_id,station_name,station_env,station_influence,lat,lon
+FR01011,Metz-Centre,Urbaine,Fond,49.119442,6.180833
+FR03068,TOULON FOCH,Urbaine,Trafic,43.126821,5.921605
+FR05089,Le Havre Lafaurie-montant,Urbaine,Trafic,49.500187,0.110903
+FR08616,Nimes Planas,Urbaine,Trafic,43.8299,4.36199
+FR16069,Mulhouse-Briand,Urbaine,Trafic,47.747684,7.321364
+FR19007,HALLES,Urbaine,Trafic,48.10751,-1.67984
+FR21001,Caen Chemin-Vert,Urbaine,Fond,49.19222,-0.391111
+FR23120,BEAUX ARTS,Urbaine,Fond,47.468498,-0.555925
+FR23174,GUEDOU,Urbaine,Fond,47.988948,0.19605
+FR23188,CIM BOUTEILLERIE,Urbaine,Fond,47.222188,-1.537432
+FR26014,Dijon Trémouille,Urbaine,Fond,47.325744,5.041056
+FR30034,Nancy-Charles III,Urbaine,Fond,48.68817,6.190431
+FR31001,GRAND PARC,Urbaine,Fond,44.86121,-0.58037
