@@ -10,3 +10,4 @@ geopy
 statsmodels.tsa.seasonal
 scipy
 contextily
+lightgbm

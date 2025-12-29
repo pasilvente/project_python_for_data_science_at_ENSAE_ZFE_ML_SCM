@@ -393,7 +393,7 @@ def _build_daily_panel(
         .sort_index()
     )
 
-    # Donneurs : moyenne par station_id et date
+    # Donneurs, moyenne par station_id et date
     donors_agg = (
         donors
         .groupby([date_col, station_id_col], as_index=False)[outcome_col]
