@@ -56,7 +56,7 @@ L’objectif du dépôt est que l’on puisse reproduire l’intégralité des r
 └── README.md
 ``` 
 
-Pour la reproductibilité, le notebook à exécuter est : rapport_zfe_clean_outputs.ipynb (version sans sorties), à lancer de haut en bas.
+Pour la reproductibilité, le notebook à exécuter est rapport_zfe_clean_outputs.ipynb (version sans sorties), à lancer de haut en bas. Le détail de cette étape est expliqué dans les sections suivantes 2, 3 et 4 qui sont à suivre pour reproduire les résultats de ce projet.
 
 Le fichier rapport_zfe.ipynb est la même chose avec toutes les figures et tables déjà générées (utile pour la relecture mais pas nécessaire à la reproduction). Les notebooks du dossier zfe-scm/ sont des notebooks d’exploration utilisés pendant le développement et ne sont pas requis pour reproduire les résultats du rapport.
 
@@ -109,7 +109,7 @@ Dans un terminal (VSCode, SSP Cloud ou autre) :
 2. Vérifier que l’interpréteur Python utilisé est bien celui de l’environnement choisi (`.venv` ou Python système).
 3. Ouvrir le notebook :
 
-   - `rapport_zfe.ipynb`
+   - `rapport_zfe_clean_outputs.ipynb`
 
 4. Vérifier que le **dossier de travail** est la racine du projet (les chemins relatifs `data/...` et `scripts/...` doivent fonctionner).
 
@@ -128,7 +128,7 @@ Le notebook rapport_zfe_clean_outputs.ipynb doit normalement :
 Aucune variable d’environnement particulière n’est nécessaire, tous les chemins sont relatifs au dossier du projet.
 ```
 
-## 5. Notes sur les données
+## 5. Notes sur les données et les fichiers
 
 Le dossier `data/` contient :
 
@@ -137,10 +137,7 @@ Le dossier `data/` contient :
 
 Le notebook `rapport_zfe.ipynb` documente explicitement quelles tables sont reconstruites à partir des bruts et lesquelles sont directement utilisées.
 
-## 6. Reproduction complète vs exploration
-
-- Pour **reproduire le rapport**, il suffit de suivre la section 4 et d’exécuter `rapport_zfe.ipynb`.
-- Les notebooks du dossier `zfe-scm/` servent uniquement à :
+Les notebooks du dossier `zfe-scm/` servent uniquement à :
   - explorer les séries,
   - tester des variantes de pré-traitement,
   - vérifier les donneurs, etc.
@@ -148,7 +145,7 @@ Le notebook `rapport_zfe.ipynb` documente explicitement quelles tables sont reco
 Ils ne sont pas nécessaires pour obtenir les chiffres et graphes du rapport, mais peuvent être utiles si l’on souhaite prolonger l’analyse. Attention, le téléchargement des tuiles OpenStreetMap nécessite une connexion Internet. Cela n’empêche pas l’exécution de la suite de l’analyse, mais certaines figures géographiques peuvent être incomplètes.
 
 
-## 7. Licence et contexte
+## 6. Licence et contexte
 
 Ce projet est réalisé dans le cadre d’un cours de Python pour la Data Science.  
 La réutilisation du code est libre pour un usage pédagogique ou exploratoire, sous réserve de citer la source et de respecter les conditions d’utilisation des données d’origine (Air qualité, OpenStreetMap, etc.).
