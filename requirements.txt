@@ -5,3 +5,8 @@ scikit-learn>=1.4
 geopandas
 pyogrio
 shapely
+seaborn
+geopy
+statsmodels.tsa.seasonal
+scipy
+contextily
