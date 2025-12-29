@@ -2,12 +2,7 @@ numpy>=1.26
 pandas>=2.2
 matplotlib>=3.8
 scikit-learn>=1.4
-geopandas
-pyogrio
-shapely
-seaborn
-geopy
-statsmodels.tsa.seasonal
-scipy
-contextily
 lightgbm
+geopandas
+contextily
+shapely
