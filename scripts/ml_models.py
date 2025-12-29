@@ -212,7 +212,7 @@ def fit_ml_counterfactual_daily(
     fitted_models : dict[str, estimator]
         Modèles ajustés, pour inspection ultérieure si besoin.
     """
-    # 1) Design matrix X + série traitée
+    # Design matrix X + série traitée
     dates, y_treated, X = _build_ml_design_matrix_daily(
         treated_daily=treated_daily,
         donors_daily=donors_daily,
@@ -227,7 +227,7 @@ def fit_ml_counterfactual_daily(
     if models is None:
         models = _default_ml_models(random_state=random_state)
 
-    # 2) Découpage pré / post
+    # Découpage pré / post
     pre_mask = dates < treatment_start
     if pre_mask.sum() < 50:
         raise ValueError(
@@ -241,7 +241,7 @@ def fit_ml_counterfactual_daily(
     synthetic_dict: Dict[str, pd.Series] = {}
     fitted_models: Dict[str, Any] = {}
 
-    # 3) Ajustement et prédiction pour chaque modèle
+    # Ajustement et prédiction pour chaque modèle
     for name, est in models.items():
         m = clone(est)
         if hasattr(m, "random_state"):

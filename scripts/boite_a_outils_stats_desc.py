@@ -40,7 +40,7 @@ def plot_daily_with_smoothing(
     treatment_start: Optional[pd.Timestamp] = None,
     covid_start: Optional[pd.Timestamp] = None,
     covid_end: Optional[pd.Timestamp] = None,
-    label_series: str = "Station traitée – NO₂ quotidien",
+    label_series: str = "Station traitée - NO₂ quotidien",
     ax: Optional[plt.Axes] = None,
 ) -> plt.Axes:
     """
@@ -445,7 +445,7 @@ def plot_preZFE_boxplot_treated_vs_donors_daily(
       - station traitée.
 
     Idée : comparer la distribution journalière de la station traitée
-    à celle du « panel moyen » des donneurs.
+    à celle du "panel moyen" des donneurs.
 
     Paramètres
     ----------
