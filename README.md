@@ -126,6 +126,7 @@ Le notebook rapport_zfe_clean_outputs.ipynb doit normalement :
 - calculer les ATT et produit l’ensemble des figures et tableaux utilisés dans le rapport.
 
 Aucune variable d’environnement particulière n’est nécessaire, tous les chemins sont relatifs au dossier du projet.
+```
 
 ## 5. Notes sur les données
 
