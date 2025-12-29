@@ -83,7 +83,7 @@ Dans un terminal (VSCode, SSP Cloud ou autre) :
    cd <nom_du_dossier_cloné>
    ```
 
-2. **(Recommandé) Créer un environnement virtuel**
+2. **(Recommandé mais pas obligatoire, fonctionne sans) Créer un environnement virtuel**
 
    ```bash
    python -m venv .venv
