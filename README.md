@@ -43,7 +43,7 @@ L’objectif du dépôt est que l’on puisse reproduire l’intégralité des r
 │   ├── scm_models.py               # modèles de contrôle synthétique
 │   ├── ml_models.py                # modèles Random Forest / LightGBM
 │   └── boite_a_outils_stats_desc.py# fonctions d’analyse descriptive & cartes
-├── zfe-scm/                        # notebooks d’exploration (non nécessaires pour reproduire le rapport)
+├── zfe-scm/                        # notebooks d’exploration (non nécessaires pour reproduire le rapport et plus à jour, donc inutile │de les faire tourner dans le cadre du rendu et de notre étude)
 │   ├── grenoble_explo.ipynb
 │   ├── paris_explo.ipynb
 │   ├── donneurs_explo_grenoble.ipynb
@@ -56,9 +56,9 @@ L’objectif du dépôt est que l’on puisse reproduire l’intégralité des r
 └── README.md
 ``` 
 
-Pour la reproductibilité, le notebook à exécuter est rapport_zfe_clean_outputs.ipynb (version sans sorties), à lancer de haut en bas. Le détail de cette étape est expliqué dans les sections suivantes 2, 3 et 4 qui sont à suivre pour reproduire les résultats de ce projet.
+Pour la reproductibilité et le rendu final, le notebook à exécuter est rapport_zfe_clean_outputs.ipynb (version sans sorties), à lancer de haut en bas. Le détail de cette étape est expliqué dans les sections suivantes 2, 3 et 4 qui sont à suivre pour reproduire les résultats de ce projet.
 
-Le fichier rapport_zfe.ipynb est la même chose avec toutes les figures et tables déjà générées (utile pour la relecture mais pas nécessaire à la reproduction). Les notebooks du dossier zfe-scm/ sont des notebooks d’exploration utilisés pendant le développement et ne sont pas requis pour reproduire les résultats du rapport.
+Le fichier rapport_zfe.ipynb est la même chose avec toutes les figures et tables déjà générées (utile pour la relecture mais pas nécessaire à la reproduction). Les notebooks du dossier zfe-scm/ sont des notebooks d’exploration utilisés pendant le développement et ne sont pas requis pour reproduire les résultats du rapport, et ne sont plus à jour en terme d'avancées.
 
 ## 2. Prérequis
 
@@ -137,12 +137,9 @@ Le dossier `data/` contient :
 
 Le notebook `rapport_zfe.ipynb` documente explicitement quelles tables sont reconstruites à partir des bruts et lesquelles sont directement utilisées.
 
-Les notebooks du dossier `zfe-scm/` servent uniquement à :
-  - explorer les séries,
-  - tester des variantes de pré-traitement,
-  - vérifier les donneurs, etc.
+Les notebooks du dossier `zfe-scm/` résument nos explorations pour mener au rendu final et ne sont pas à consulter pour le rendu final.
 
-Ils ne sont pas nécessaires pour obtenir les chiffres et graphes du rapport, mais peuvent être utiles si l’on souhaite prolonger l’analyse. Attention, le téléchargement des tuiles OpenStreetMap nécessite une connexion Internet. Cela n’empêche pas l’exécution de la suite de l’analyse, mais certaines figures géographiques peuvent être incomplètes.
+Ils ne sont pas nécessaires pour obtenir les chiffres et graphes du rapport et ne sont plus à jour, mais peuvent être utiles si l’on souhaite prolonger l’analyse.
 
 
 ## 6. Licence et contexte
