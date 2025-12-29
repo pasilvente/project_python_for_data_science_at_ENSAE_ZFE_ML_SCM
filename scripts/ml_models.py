@@ -29,7 +29,7 @@ from sklearn.base import clone
 from sklearn.ensemble import RandomForestRegressor
 from lightgbm import LGBMRegressor
 
-from .scm_models import _build_daily_panel
+from scripts.scm_models import _build_daily_panel
 
 
 def _default_ml_models(random_state: int = 0) -> Dict[str, Any]:
