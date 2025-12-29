@@ -60,8 +60,9 @@ Pour la reproductibilité, le notebook à exécuter est : rapport_zfe_clean_outp
 
 Le fichier rapport_zfe.ipynb est la même chose avec toutes les figures et tables déjà générées (utile pour la relecture mais pas nécessaire à la reproduction). Les notebooks du dossier zfe-scm/ sont des notebooks d’exploration utilisés pendant le développement et ne sont pas requis pour reproduire les résultats du rapport.
 
-```markdown
 ## 2. Prérequis
+
+```markdown
 
 - **Python** ≥ 3.11  
 - **Git**
@@ -69,6 +70,7 @@ Le fichier rapport_zfe.ipynb est la même chose avec toutes les figures et table
 
 Toutes les bibliothèques Python nécessaires sont listées dans `requirements.txt`
 (`pandas`, `numpy`, `scikit-learn`, `lightgbm`, `geopandas`, `contextily`, etc.).
+```
 
 ## 3. Installation de l’environnement
 
@@ -79,6 +81,7 @@ Dans un terminal (VSCode, SSP Cloud ou autre) :
    ```bash
    git clone <URL_DU_DEPOT_GITHUB>
    cd <nom_du_dossier_cloné>
+   ```
 
 2. **(Recommandé) Créer un environnement virtuel**
 
@@ -88,18 +91,19 @@ Dans un terminal (VSCode, SSP Cloud ou autre) :
     source .venv/bin/activate
     # Sous Windows
     .venv\Scripts\activate
+    ```
 
 3. **Installer les dépendances**
+    ```bash
     pip install --upgrade pip
     pip install -r requirements.txt
+    ```
 
 
----
 
 ### 4. Reproduire les résultats du rapport
 
 ```markdown
-## 4. Reproduire les résultats du rapport
 
 1. Ouvrir VSCode (ou VSCode sur le SSP Cloud) dans le dossier du projet.
 2. Vérifier que l’interpréteur Python utilisé est bien celui de l’environnement choisi (`.venv` ou Python système).
