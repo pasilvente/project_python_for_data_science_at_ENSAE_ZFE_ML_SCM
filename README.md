@@ -87,7 +87,7 @@ Dans un terminal (VSCode, SSP Cloud ou autre) :
 
    ```bash
    python -m venv .venv
-    # Sous Linux / macOS / SSP Cloud
+    # Sous Linux / macOS 
     source .venv/bin/activate
     # Sous Windows
     .venv\Scripts\activate
